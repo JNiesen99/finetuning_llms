@@ -1,0 +1,5 @@
+{
+"task_type":"CAUSAL_LM",
+"adapter_layers":15,
+"adapter_len": 20
+}
