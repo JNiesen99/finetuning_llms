@@ -14,7 +14,7 @@ finetuner = Finetuner(
 finetuner.fine_tuning(
     method="lora",
     fine_tuning_parameters="finetune-llms/hyperparameters/lora_parameters.json",
-    training_parameters="finetune-llms/hyperparameters/training_parameters.json",
+    training_parameters="finetuning_llms/hyperparameters/training_parameters_leolm_qlora.json",
     adapter_output_dir="finetune-llms/models/adapters_LeoLM_qlora",
 )
 
@@ -43,7 +43,7 @@ finetuner = Finetuner(
 finetuner.fine_tuning(
     method="lora",
     fine_tuning_parameters="finetune-llms/hyperparameters/lora_parameters.json",
-    training_parameters="finetune-llms/hyperparameters/training_parameters.json",
+    training_parameters="finetuning_llms/hyperparameters/training_parameters_llama2_qlora.json",
     adapter_output_dir="finetune-llms/models/adapters_Llama2_qlora",
 )
 

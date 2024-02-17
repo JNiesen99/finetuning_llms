@@ -2,9 +2,8 @@
                 "gradient_accumulation_steps":4,
                 "warmup_steps":5,
                 "logging_steps":1,
-                "max_steps":2,
+                "max_steps":23,
                 "learning_rate":2.0e-4,
                 "fp16":true,
                 "optim":"adamw_torch_fused",
-                "report_to":"tensorboard",
-                "model_max_context_length": 100}
+                "report_to":"tensorboard"}

@@ -14,7 +14,7 @@ finetuner = Finetuner(
 finetuner.fine_tuning(
     method="prefix",
     fine_tuning_parameters="finetune-llms/hyperparameters/prefix_parameters.json",
-    training_parameters="finetune-llms/hyperparameters/training_parameters.json",
+    training_parameters="finetuning_llms/hyperparameters/training_parameters_leolm_prefix.json",
     adapter_output_dir="finetune-llms/models/adapters_LeoLM_prefix",
 )
 
@@ -44,7 +44,7 @@ finetuner = Finetuner(
 finetuner.fine_tuning(
     method="prefix",
     fine_tuning_parameters="finetune-llms/hyperparameters/prefix_parameters.json",
-    training_parameters="finetune-llms/hyperparameters/training_parameters.json",
+    training_parameters="finetuning_llms/hyperparameters/training_parameters_llama2_prefix.json",
     adapter_output_dir="finetune-llms/models/adapters_llama2_prefix",
 )
 
